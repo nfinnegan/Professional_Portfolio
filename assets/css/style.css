@@ -189,7 +189,31 @@ nav > a {
     background-position: 5%;
     border: 4px solid red;
 }
+/* HOVER OVER EFFECT ON IMAGES */
+.work_content_1:hover {
+    opacity: .3;
+    cursor: pointer;
+}
 
+.work_content_2:hover {
+    opacity: .3;
+    cursor: pointer;
+}
+
+.work_content_3:hover {
+    opacity: .3;
+    cursor: pointer;
+}
+
+.work_content_4:hover{
+    opacity: .3;
+    cursor: pointer;
+}
+
+.work_content_5:hover{
+    opacity: .3;
+    cursor: pointer;
+}
 
 /*GRID LAYOUT FOR CONTACT ME SECTION*/
 .container_contact_me {

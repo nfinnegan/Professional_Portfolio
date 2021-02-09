@@ -54,7 +54,8 @@ nav > a {
 }
 
 .container{
-    width: 100%;
+    width: 100vw;
+    height: 100vh;
     display: grid;
 
 
@@ -217,16 +218,19 @@ nav > a {
     grid-template-columns: 20% 80%;
 }
 
+
 /*FORMATTING FOR CONTACT ME ALIGNED ON LEFT*/
 .contact_me {
+    display: flex;
+    flex-flow: wrap;
     font-size: 40pt;
     border-right: 2px solid black;
     text-align: right;
     padding: 0px 20px;
 }
 
-/* FORMATTING FOR CONTACT ME */
-.contact_me_info > ul > li{
+/* FORMATTING FOR CONTACT ME LINKS */
+.contact_me_info > ul > li {
     font-size: 18pt;  
     list-style-type: none; 
     text-decoration: underline;
@@ -239,24 +243,17 @@ nav > a {
     align-items: center;  
 }
 
+.contact_me_info {
+    display: flex;
+    flex-wrap: wrap;
+}
+    
 /* MEDIA QUERIES */
 
 @media screen and (max-width:760px) {
-    .container, .container_about_me, .container_work, .container {
+    .container_contact_me, .contact_me_info, .contact_me  {
         display:flex;
+        align-items:flex-start;
         flex-flow: column wrap; 
-    }   
+    }
 }   
-    /* .container_about_me {
-        display:flex;
-        flex-flow: column wrap; 
-    }
-    .container_work {
-        display:flex;
-        flex-flow: column wrap; 
-    }
-    .container_contact_me {
-        display:flex;
-        flex-flow: column wrap; 
-    }
-} */

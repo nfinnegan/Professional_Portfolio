@@ -64,15 +64,10 @@ nav > a {
     margin: 20px;
     padding: 20px;  
     display: grid;
-    /* grid-template-areas: 
-    "about_me1 about_me1 about_me1"; */
     grid-template-columns: 20% 18% 60%;
-    grid-template-rows: 200px;
-   
+    grid-template-rows: 200px;   
 }
-/* #about_me1 {
-    grid-area: about_me;
-} */
+
 
 /*FORMATTING FOR ABOUT ME ALIGNED ON LEFT*/
 .about_me{
@@ -86,8 +81,6 @@ nav > a {
     width: 200px;
     height: 200px;
     padding-left:10px; 
-    
-   
 }
 
 .about_me_content {
@@ -101,8 +94,8 @@ nav > a {
     display:grid;
     grid-template-columns: 20% 40% 40%;
     grid-template-rows: 25% 25% 25% 25%;
-
 }
+
 /*FORMATTING FOR WORK ALIGNED ON LEFT*/
 .work {
     font-size: 40pt;
@@ -118,10 +111,6 @@ nav > a {
 .work_content_1 {
     grid-column: 2/4;
     grid-row: 1/3;
-    /* background-image: url(../Images/code_computer.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 60%; */
     margin: 0px 25px;
     border: 4px solid red;
     position: relative;
@@ -139,9 +128,7 @@ nav > a {
     text-indent: 100%;
     white-space: nowrap;  
 
-    /* background-repeat: no-repeat;
-    background-size: 800;
-    background-position: 60%; */
+
 }
 
 #subtitle_1 {
@@ -217,27 +204,7 @@ nav > a {
     border: 4px solid red;
 }
 /* HOVER OVER EFFECT ON IMAGES */
-.work_content_1:hover {
-    opacity: .3;
-    cursor: pointer;
-}
-
-.work_content_2:hover {
-    opacity: .3;
-    cursor: pointer;
-}
-
-.work_content_3:hover {
-    opacity: .3;
-    cursor: pointer;
-}
-
-.work_content_4:hover{
-    opacity: .3;
-    cursor: pointer;
-}
-
-.work_content_5:hover{
+.work_content_1:hover, .work_content_2:hover, .work_content_3:hover, .work_content_4:hover, .work_content_5:hover{
     opacity: .3;
     cursor: pointer;
 }
@@ -264,6 +231,7 @@ nav > a {
     list-style-type: none; 
     text-decoration: underline;
     display: inline;
+    justify-content: space-between;
     margin: 25px;   
     padding-top: 25px;
     padding-left: 15px;
@@ -272,10 +240,23 @@ nav > a {
 }
 
 /* MEDIA QUERIES */
-/* 
+
 @media screen and (max-width:760px) {
-    .container {
+    .container, .container_about_me, .container_work, .container {
         display:flex;
         flex-flow: column wrap; 
     }   
+}   
+    /* .container_about_me {
+        display:flex;
+        flex-flow: column wrap; 
+    }
+    .container_work {
+        display:flex;
+        flex-flow: column wrap; 
+    }
+    .container_contact_me {
+        display:flex;
+        flex-flow: column wrap; 
+    }
 } */

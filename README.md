@@ -18,4 +18,6 @@ https://nfinnegan.github.io/Professional_Portfolio/
 
 ## Preview
 
-<img src="Professional_Portfolio/assets/Images/Career_Portfolio_Screenshot.png">
+<img src="Professional_Portfolio/assets/Images/Career_Portfolio_Screenshot.png" width=300px height=400px alt="portfolio screenshot">
+
+Please refer to the assets/images folder for a screenshot of what it's expected to look like, image is not rendering

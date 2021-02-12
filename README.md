@@ -18,4 +18,4 @@ https://nfinnegan.github.io/Professional_Portfolio/
 
 ## Preview
 
-
+<img src="Professional_Portfolio/assets/Images/Career_Portfolio_Screenshot.png">
